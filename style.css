@@ -1,0 +1,35 @@
+.regis {
+    text-align: center;
+    padding-top: 300px;
+    align-items: center;
+    position: relative;
+    left: 600px;
+    
+}
+.wrapper {
+margin: 10px;
+height: 30px;
+width: 18%;
+display: flex;
+align-items: center;
+}
+.button {
+    text-align: center;
+    position: relative;
+    left: -75px;
+    padding-top: 10px;
+}
+@media screen and (max-width: 400px) {
+    .regis {
+      position: relative;
+         left: 20px;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+    .wrapper {
+        height: 30px;
+        width: 58%;
+        display: flex;
+        align-items: center;
+}
+}
